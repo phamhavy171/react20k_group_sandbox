@@ -1,0 +1,187 @@
+/* LOADER */
+.spinner {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% {
+    -webkit-transform: perspective(120px);
+  }
+  50% {
+    -webkit-transform: perspective(120px) rotateY(180deg);
+  }
+  100% {
+    -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg);
+  }
+}
+
+@keyframes sk-rotateplane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+.hide {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  margin: 14px auto;
+  text-align: center;
+}
+#logo img {
+  height: 6rem;
+}
+header nav ul li {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+}
+
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-weight: bolder;
+}
+
+header nav ul li a:hover {
+  color: #f27405;
+  border: none;
+  border-bottom: 3px solid #f27405;
+  font-weight: bolder;
+}
+
+.welcome_banner {
+  background: url(https://source.unsplash.com/oBBqjbpdRWs/1600x900) no-repeat
+    center center/cover;
+  height: 32rem;
+  padding: 8rem 0 0 15rem;
+}
+#welcome_text {
+  width: 32rem;
+  padding: 2rem;
+  background-color: rgba(242, 116, 5, 0.6);
+  color: aliceblue;
+  border-radius: 3px;
+}
+#welcome_text button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 12px 0;
+  border: none;
+}
+#welcome_text button a {
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+#welcome_text h1 {
+  font-size: 2.5rem;
+}
+#about_us {
+  padding: 2rem 0 0 15rem;
+  width: 80rem;
+  height: 25rem;
+  display: inline-flex;
+}
+#about_us img {
+  height: 20rem;
+  padding: 1.5rem;
+  float: right;
+  margin-left: 4rem;
+}
+.about_us_text p {
+  padding-top: 6%;
+}
+.about_us_text h1 {
+  margin-top: 3rem;
+  margin-bottom: -3rem;
+  font-weight: bolder;
+}
+#contact {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  padding: 3rem 0 2rem 15rem;
+}
+.close_text {
+  width: 30rem;
+  float: right;
+  padding-right: 5rem;
+  margin-right: 6rem;
+}
+.contact_general,
+.form_newsletter,
+.find_us {
+  line-height: 3rem;
+}
+p {
+  line-height: 1.5rem;
+}
+.form_general input {
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+  font-size: 15px;
+}
+label {
+  display: inline-block;
+  width: 180px;
+}
+.form_newsletter input,
+.find_us input {
+  width: 30px;
+  margin-left: 20px;
+}
+.form_newsletter {
+  border: 1px solid rgb(82, 82, 82);
+  border-left: 0;
+  border-right: 0;
+  margin: 20px 750px 20px 0;
+}
+textarea {
+  margin-left: 22px;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.send_button {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: #f27405;
+  border: none;
+  border-radius: 5px;
+}

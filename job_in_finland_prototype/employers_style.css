@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "finlandica";
+  src: url("/assets/fonts/.eot"); /* IE9 Compat Modes */
+  src: url("/assets/fonts/.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("/assets/fonts/.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("/assets/fonts/.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("/assets/fonts/.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("/assets/fonts/.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+body {
+  font-family: "finlandica", Fallback, sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+.employers_banner {
+  padding: 5rem 3rem;
+  background-color: #1134a6;
+  color: white;
+}
+.employers_text {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  line-height: 200%;
+}
+.employers_text_left {
+  grid-column: 1 / span 1;
+  padding: 3rem;
+}
+
+.employers_text_left h3 {
+  padding: 2rem 2rem 0 2rem;
+  background-color: #f1f1f1;
+}
+.employers_text_left p {
+  background-color: #f1f1f1;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.employers_text_middle {
+  grid-column: 2 / span 1;
+  padding: 3rem;
+}
+.employers_text_right {
+  grid-column: 3 / span 1;
+  padding: 3rem;
+}
+.employers_text h3,
+.employers_text h4 {
+  color: #1134a6;
+}
+.employers_text_middle ul {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+.employers_text_right button {
+  margin-top: 2rem;
+  margin-left: -0.01rem;
+}

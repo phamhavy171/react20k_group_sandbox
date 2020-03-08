@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  font-family: "Playfair Display", serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+header * {
+  display: inline;
+}
+
+header {
+  background-color: rgb(243, 149, 159);
+}
+
+#logo {
+  display: inline-block;
+  color: #58588a;
+}
+
+header ul {
+  list-style-type: none;
+  float: right;
+  vertical-align: center;
+}
+
+nav ul li {
+  color: white;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: lightcyan;
+  padding: 10px;
+  text-align: center;
+  display: inline-flex;
+}
+
+nav ul li a:hover {
+  background-color: #58588a;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: justify;
+}
+img {
+  float: left;
+  height: 90px;
+  width: auto;
+}
+
+main h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+#past {
+  background-image: url("/resources/images/div1.jpg");
+  background-size: cover;
+}
+
+#future {
+  background-image: url("/resources/images/div3.jpg");
+  background-size: cover;
+}
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  padding: 50px 0;
+}
+
+h2,
+p {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+img {
+  margin-right: 10px;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+p {
+  padding: 50px;
+}
+
+footer {
+  text-align: center;
+  font-weight: 30px;
+}
+
+h2 {
+  color: rgb(58, 97, 65);
+  text-transform: uppercase;
+  font-weight: bold;
+}

@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  background: cornsilk;
+}
+h1 {
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 32px;
+}
+.literature {
+  font-style: italic;
+}
+
+.poem {
+  line-height: 2rem;
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "finlandica";
+  src: url("/assets/fonts/.eot"); /* IE9 Compat Modes */
+  src: url("/assets/fonts/.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("/assets/fonts/.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("/assets/fonts/.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("/assets/fonts/.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("/assets/fonts/.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+body {
+  font-family: "finlandica", Fallback, sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+.regions_map img {
+  display: block;
+  margin: 0 auto;
+}
