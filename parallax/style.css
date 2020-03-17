@@ -45,10 +45,11 @@ nav ul li a {
   padding: 10px;
   text-align: center;
   display: inline-flex;
+  font-size: 1.2rem;
 }
 
 nav ul li a:hover {
-  background-color: #58588a;
+  background-color: lightblue;
 }
 
 .container {
