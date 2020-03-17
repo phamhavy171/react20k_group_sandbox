@@ -17,6 +17,9 @@ header * {
 
 header {
   background-color: rgb(243, 149, 159);
+  padding: 2rem;
+  position: sticky;
+  top: 0;
 }
 
 #logo {
@@ -53,6 +56,10 @@ nav ul li a:hover {
   margin: 0 auto;
   padding: 50px;
   text-align: justify;
+  height: 800px;
+}
+.container:first-child {
+  margin-top: 4rem;
 }
 img {
   float: left;
@@ -64,15 +71,16 @@ main h2 {
   text-align: center;
   padding: 10px;
 }
+#present {
+  background-color: lightblue;
+}
 
 #past {
-  background-image: url("/resources/images/div1.jpg");
-  background-size: cover;
+  background: url(/parallax/images/div1.jpg) no-repeat fixed center center/cover;
 }
 
 #future {
-  background-image: url("/resources/images/div3.jpg");
-  background-size: cover;
+  background: url(/parallax/images/div3.jpg) no-repeat fixed center center/cover;
 }
 
 section {
